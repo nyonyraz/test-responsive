@@ -105,8 +105,7 @@
     <main>
         <article>
             <!-- insert iframe from youtube -->
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=rdijKPM_Dgs32WjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <iframe width="400" height="275" src="https://www.youtube.com/embed/ojcNcvb1olg?si=rdijKPM_Dgs32WjT" frameborder="0" allowfullscreen></iframe>
 
             <h2>Rocking the free web</h2>
 
@@ -119,16 +118,16 @@
         <div class="further-info">
             <!-- insert images with srcsets and sizes -->
             <a href="https://www.mozilla.org/en-US/firefox/new/">
-                <img srcset="firefoxlogo 120w.png 120w, firefoxlogo 400w.png 400w" sizes="(max-width:480px) 120px,400px" src="firefoxlogo400.png" alt="firefox logo">
+                <img srcset="firefoxlogo 120w.png 120w, firefoxlogo 400w.png 400w" sizes="(max-width:480px) 120px,400px" src="firefoxlogo400.png" alt="Download firefox">
             </a>
             <a href="https://www.mozilla.org/">
-                <img srcset="mozilladinosaurhead 120w.png, mozilladinosaurhead 400w.png 400w" sizes="(max-width:480px) 120px, 400px" src="mozilladinosaurhead400.png" alt="head of a dinosaur">
+                <img srcset="mozilladinosaurhead 120w.png, mozilladinosaurhead 400w.png 400w" sizes="(max-width:480px) 120px, 400px" src="mozilladinosaurhead400.png" alt="about mozilla">
             </a>
             <a href="https://addons.mozilla.org/">
-                <img srcset="firefoxaddons 120w.jpg 120w,firefoxaddons 400w.jpg 400w" sizes="(max-width:480px) 120px, 400px" src="firefoxaddons400.jpg" alt="puzzle of firefox logo">
+                <img srcset="firefoxaddons 120w.jpg 120w,firefoxaddons 400w.jpg 400w" sizes="(max-width:480px) 120px, 400px" src="firefoxaddons400.jpg" alt="extensions for mozilla">
             </a>
             <a href="https://developer.mozilla.org/en-US/">
-                <img srcset="mdn 120w.svg 120w, mdn 400w.svg 400w" sizes="(max-width:480px) 120px, 400px" src="mdn400.svg" alt="logo dinosaur">
+                <img srcset="mdn 120w.svg 120w, mdn 400w.svg 400w" sizes="(max-width:480px) 120px, 400px" src="mdn400.svg" alt="MDN web docs">
             </a>
             <div class="clearfix"></div>
         </div>
@@ -136,7 +135,8 @@
         <div class="red-panda">
             <!-- insert picture element -->
             <picture>
-                <source type="image/jpg" srcset="panda 600w.jpg 600w, panda 1200w.jpg 1200w">
+                <source media="(max-width: 600px)" srcset="panda600.jpg">
+
                 <img src="panda1200.jpg" alt="panda sur arbre">
             </picture>
         </div>
