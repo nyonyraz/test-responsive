@@ -96,10 +96,8 @@
 <body>
     <header>
         <h1>Mozilla</h1>
-        <!-- insert <img> element, link to the small
-          version of the Firefox logo -->
+        <!-- insert <img> element, link to the small version of the Firefox logo -->
         <img src="firefoxlogo400.png" alt="logo firefox">
-
     </header>
 
     <main>
@@ -119,17 +117,20 @@
         <div class="further-info">
             <!-- insert images with srcsets and sizes -->
             <a href="https://www.mozilla.org/en-US/firefox/new/">
-                <img srcset="firefoxlogo-120w.png 120w,
-                firefoxlogo 400w.png 400w" sizes="(max-width:480px) 120px,(max-width:800px) 400px " src="firefoxlogo400.png" alt="logo de firefox">
+                <img srcset="firefoxlogo-120w.png 120w,  
+                firefoxlogo-400w.png 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="firefoxlogo400.png" alt="logo de firefox">
             </a>
             <a href="https://www.mozilla.org/">
-                <img srcset="mozilladinosaurhead 120w.png 120w,mozilladinosaurhead 400w.png 400w" sizes="(max-width:480px) 120px,(max-width:800px) 400px" src="mozilladinosaurhead400.png" alt="Dinosaur head">
+                <img srcset="mozilladinosaurhead-120w.png 120w,  
+                mozilladinosaurhead-400w.png 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="mozilladinosaurhead400.png" alt="Dinosaur head">
             </a>
             <a href="https://addons.mozilla.org/">
-                <img srcset="firefoxaddons 120w.jpg 120w, firefoxaddons 400w.jpg 400w" sizes="(max-width:480px) 120px,(max-width:800px) 400px " src="firefoxaddons400.jpg" alt="firefoxaddons">
+                <img srcset="firefoxaddons-120w.jpg 120w,  
+                firefoxaddons-400w.jpg 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="firefoxaddons400.jpg" alt="firefox addons">
             </a>
             <a href="https://developer.mozilla.org/en-US/">
-                <img srcset="mdnsvg 120w.svg 120w, mdnsvg 400w.svg 400w" sizes="(max-width:480px) 120px,(max-width:800px) 400px " src="mdn400.svg" alt="mdn400">
+                <img srcset="mdnsvg-120w.svg 120w,  
+                mdnsvg-400w.svg 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="mdn400.svg" alt="MDN logo">
             </a>
             <div class="clearfix"></div>
         </div>
@@ -137,9 +138,9 @@
         <div class="red-panda">
             <!-- insert picture element -->
             <picture>
-                <source media="(max-width:479px)" srcset="panda-600w.jpg">
-                <source media="(min-width:480px)" srcset="panda-1200w.jpg">
-                <img src="panda600.jpg" alt="panda sur une branche">
+                <source media="(max-width: 479px)" srcset="panda-600w.jpg">
+                <source media="(min-width: 480px)" srcset="panda-1200w.jpg">
+                <img src="panda600.jpg" alt="Panda sur une branche">
             </picture>
         </div>
 
