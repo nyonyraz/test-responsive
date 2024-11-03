@@ -96,14 +96,16 @@
 <body>
     <header>
         <h1>Mozilla</h1>
-        <!-- insert <img> element, link to the small version of the Firefox logo -->
-        <img src="firefoxlogo400.png" alt="logo firefox">
+        <!-- insert <img> element, link to the small
+          version of the Firefox logo -->
+        <img src="firefoxlogo120.png" alt="firefox logo">
+
     </header>
 
     <main>
         <article>
             <!-- insert iframe from youtube -->
-            <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=Yd-oBHwVFREqHdXt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            <iframe width="400" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg?si=rdijKPM_Dgs32WjT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
             <h2>Rocking the free web</h2>
@@ -117,20 +119,16 @@
         <div class="further-info">
             <!-- insert images with srcsets and sizes -->
             <a href="https://www.mozilla.org/en-US/firefox/new/">
-                <img srcset="firefoxlogo-120w.png 120w,  
-                firefoxlogo-400w.png 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="firefoxlogo400.png" alt="logo de firefox">
+                <img srcset="firefoxlogo 120w.png 120w, firefoxlogo 400w.png 400w" sizes="(max-width:480px) 120px,400px" src="firefoxlogo400.png" alt="firefox logo">
             </a>
             <a href="https://www.mozilla.org/">
-                <img srcset="mozilladinosaurhead-120w.png 120w,  
-                mozilladinosaurhead-400w.png 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="mozilladinosaurhead400.png" alt="Dinosaur head">
+                <img srcset="mozilladinosaurhead 120w.png, mozilladinosaurhead 400w.png 400w" sizes="(max-width:480px) 120px, 400px" src="mozilladinosaurhead400.png" alt="head of a dinosaur">
             </a>
             <a href="https://addons.mozilla.org/">
-                <img srcset="firefoxaddons-120w.jpg 120w,  
-                firefoxaddons-400w.jpg 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="firefoxaddons400.jpg" alt="firefox addons">
+                <img srcset="firefoxaddons 120w.jpg 120w,firefoxaddons 400w.jpg 400w" sizes="(max-width:480px) 120px, 400px" src="firefoxaddons400.jpg" alt="puzzle of firefox logo">
             </a>
             <a href="https://developer.mozilla.org/en-US/">
-                <img srcset="mdnsvg-120w.svg 120w,  
-                mdnsvg-400w.svg 400w" sizes="(max-width:480px) 120px, (max-width:800px) 400px" src="mdn400.svg" alt="MDN logo">
+                <img srcset="mdn 120w.svg 120w, mdn 400w.svg 400w" sizes="(max-width:480px) 120px, 400px" src="mdn400.svg" alt="logo dinosaur">
             </a>
             <div class="clearfix"></div>
         </div>
@@ -138,9 +136,8 @@
         <div class="red-panda">
             <!-- insert picture element -->
             <picture>
-                <source media="(max-width: 479px)" srcset="panda-600w.jpg">
-                <source media="(min-width: 480px)" srcset="panda-1200w.jpg">
-                <img src="panda600.jpg" alt="Panda sur une branche">
+                <source type="image/jpg" srcset="panda 600w.jpg 600w, panda 1200w.jpg 1200w">
+                <img src="panda1200.jpg" alt="panda sur arbre">
             </picture>
         </div>
 
